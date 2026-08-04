@@ -8,11 +8,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "ce-bootcamp-tfstate-YOURNAME"
-    region         = "us-east-1"
-    
+    bucket = "ce-bootcamp-tfstate-sana"
+    region = "us-east-1"
+
     use_lockfile = true
-    encrypt        = true
+    encrypt      = true
     # key is set dynamically via -backend-config in the workflow
   }
 }
