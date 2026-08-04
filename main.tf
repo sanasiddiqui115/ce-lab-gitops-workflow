@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "ce-bootcamp-tfstate-YOURNAME"
+    bucket         = "ce-bootcamp-tfstate-sana"
     region         = "us-east-1"
     
     use_lockfile = true
